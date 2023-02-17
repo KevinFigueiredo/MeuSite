@@ -1,7 +1,7 @@
 # Meu Site
 # Olá, Bem vindo ao projeto do meu site.
 
-![image](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/raw/master/img/amostra.gif)
+![image](https://raw.githubusercontent.com/KevinFigueiredo/meu-site/main/print-site.png)
 
 ## Ferramentas utilizadas:
 
