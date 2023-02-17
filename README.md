@@ -1,4 +1,3 @@
-# Meu Site
 # Olá, Bem vindo ao projeto do meu site.
 
 ![image](https://raw.githubusercontent.com/KevinFigueiredo/meu-site/main/print-site.png)
