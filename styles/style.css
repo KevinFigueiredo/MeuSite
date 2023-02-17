@@ -196,6 +196,7 @@ form .enviar {
         gap: 10px;
     }
     .foto {
-		width: auto;
-	}
+	width: 50%;
+	border: none;
+    }
 }
