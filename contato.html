@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="margem">
+        <form>
+            <label for="nome-sobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nome-sobrenome" class="input-padrao" required placeholder="Ex.: Maria Eduarda">
+
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" class="input-padrao" placeholder="Ex.: seuemail@dominio.com" required>
+
+            <label for="Telefone">Telefone: </label>
+            <input type="tel" id="Telefone" class="input-padrao" placeholder="Ex.: (XX) XXXXX-XXXX" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
+                <label for="email-radio"><input type="radio" name="contato" value="Email" id="email-radio">Email</label>
+                
+
+                <label for="telefone-radio"><input type="radio" name="contato" value="Telefone" id="telefone-radio">Telefone</label>
+                
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp" checked>Whatsapp</label>                
+            </fieldset>
+            <fieldset>
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+            
+            <input type="submit" value="Enviar formulário" class="enviar">
+            
+            
+        </form>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Kevin Figueiredo.</p>
+    </footer>
